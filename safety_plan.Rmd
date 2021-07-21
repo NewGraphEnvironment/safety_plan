@@ -55,10 +55,11 @@ source('R/functions.R')
 
 name_project <- 'bulkley_2021'
 name_repo <- 'safety_plan'
+name_pdf <- 'safety_plan'
 
 link_repo <- paste0('https://newgraphenvironment.github.io/', name_repo, '/')
 link_kml <- paste0('https://github.com/NewGraphEnvironment/', name_repo, '/raw/main/docs/sites_', name_project, '_', format(Sys.Date(), '%Y%m%d'), '_kml_gpx.zip')
-link_pdf <- paste0('https://github.com/NewGraphEnvironment/', name_repo, '/raw/main/docs/', name_repo, '.pdf')
+link_pdf <- paste0('https://github.com/NewGraphEnvironment/', name_repo, '/raw/main/docs/', name_pdf, '_', name_project, '.pdf')
 link_fieldmaps <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/bulkley/'
 link_fieldmaps2 <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/morice/' 
 ```
