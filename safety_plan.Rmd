@@ -59,7 +59,8 @@ name_repo <- 'safety_plan'
 link_repo <- paste0('https://newgraphenvironment.github.io/', name_repo, '/')
 link_kml <- paste0('https://github.com/NewGraphEnvironment/', name_repo, '/raw/main/docs/sites_', name_project, '_', format(Sys.Date(), '%Y%m%d'), '_kml_gpx.zip')
 link_pdf <- paste0('https://github.com/NewGraphEnvironment/', name_repo, '/raw/main/docs/', name_repo, '.pdf')
-  
+link_fieldmaps <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/bulkley/'
+link_fieldmaps2 <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/morice/' 
 ```
 
 ```{r settings-gitbook, eval= gitbook_on}
@@ -77,17 +78,28 @@ font_set <- 9
 
 ```
 
-This safety plan can also be viewed [online](`r knitr::asis_output(link_repo)`) with the latest version of this pdf downloadable [here](`r knitr::asis_output(link_pdf)`).
+The latest version of this pdf can be downloaded [here](`r knitr::asis_output(link_pdf)`).
+
+
 
 <br>
 
 
 
-A summary of sites to be potentially assessed is included as Table \@ref(tab:tab-sites),  details of fish species potentially encountered is presented in  Table \@ref(tab:tab-fish) and an overview map of displaying potential sample locations is included as Figure 1. kml (google earth) and gpx (garmin) files of the sites can be downloaded [here](`r knitr::asis_output(link_kml)`).  
+A zip file which includes kml (google earth) and gpx (garmin) files of the sites to be potentially assessed can be downloaded [here](`r knitr::asis_output(link_kml)`). Georeferenced pdf maps can be accessed and downloaded for the [Bulkley here](`r knitr::asis_output(link_fieldmaps)`) and [Morice here](`r knitr::asis_output(link_fieldmaps2)`).
+
+
 
 <br>
 
-Work will include [fish passage assessments](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/field-assessment-for-determining-fish-passage-status-of-cbs.pdf) and [habitat confirmations](https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/land-based-investment/investment-categories/fish-passage). Presence/absence of fish, species composition/density and distribution limits can be useful for prioritizing which crossings are a best fit for fish passage restoration and help inform follow up monitoring so electrofishing and minnowtrapping may be conducted.  Standard Fish and Fish Habitat Inventory Standard Field Form [site cards](https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/laws-policies-standards-guidance/inventory-standards/aquatic-ecosystems) are used to gather habitat data.
+Field work methods will generally follow procedures in [fish passage assessments](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/field-assessment-for-determining-fish-passage-status-of-cbs.pdf) and [habitat confirmations](https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/land-based-investment/investment-categories/fish-passage) protocol documents. Presence/absence of fish, species composition/density and distribution limits can be useful for prioritizing which crossings are a best fit for fish passage restoration and help inform follow up monitoring so electrofishing and minnowtrapping may be conducted.  Standard Fish and Fish Habitat Inventory Standard Field Form [site cards](https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/laws-policies-standards-guidance/inventory-standards/aquatic-ecosystems) are used to gather habitat data.
+
+<br>
+
+
+A summary of sites to be potentially assessed is included as Table \@ref(tab:tab-sites) and an overview map of displaying potential sample locations is included as Figure 1.
+
+<!-- The latest version of this safety plan can be viewed [online](`r knitr::asis_output(link_repo)`). -->
 
 
 
@@ -377,23 +389,24 @@ Figure 1. Map of potential sampling areas. High priority sites in red and modera
 table_sites %>% 
   sf::st_drop_geometry() %>% 
   arrange(aggregated_crossings_id) %>% 
-  select(agg_id = aggregated_crossings_id, 
+  select(id_xing = aggregated_crossings_id, 
          Stream = gnis_name, 
          # watershed_code_50k, 
          # watershed_code_20k, 
          lat, 
          long, 
          source,
-         my_text,
+         id_map = dbm_mof_50k_grid,
+         comments = my_text,
          sp_upstr = observedspp_upstr, 
          ) %>% 
   kable(caption = 'Potential sample locations in the Bulkley River and Morice River watershed groups.', booktabs = T) %>%
   kableExtra::kable_styling(c("condensed"),
                             full_width = T,
                             font_size = font_set) %>%
-  kableExtra::column_spec(column = c(6), width_max = '1.5in') %>% 
+  kableExtra::column_spec(column = c(7), width_max = '1.5in') %>% 
   # kableExtra::column_spec(column = c(3,4,7), width_min = '1.0in') %>% 
-  kableExtra::column_spec(column = c(7), width_max = '2.0in')
+  kableExtra::column_spec(column = c(8), width_max = '2.0in')
 ```
 
 
@@ -403,7 +416,7 @@ table_sites %>%
 
 
 
-```{r tab-fish}
+```{r tab-fish, eval=FALSE}
 fiss_species_table <- readr::read_csv(paste0(getwd(), '/data/fiss_species_table.csv'))
 
 fiss_species_table %>% 
