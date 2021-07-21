@@ -73,6 +73,10 @@ photo_width <- "80%"
 font_set <- 9
 ```
 
+```{r}
+
+```
+
 This safety plan can also be viewed [online](`r knitr::asis_output(link_repo)`) with the latest version of this pdf downloadable [here](`r knitr::asis_output(link_pdf)`).
 
 <br>
