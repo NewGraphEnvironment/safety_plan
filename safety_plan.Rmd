@@ -93,6 +93,8 @@ A zip file which includes kml (google earth) and gpx (garmin) files of the sites
 
 <br>
 
+## Field Plan
+
 Field work methods will generally follow procedures in [fish passage assessments](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/field-assessment-for-determining-fish-passage-status-of-cbs.pdf) and [habitat confirmations](https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/land-based-investment/investment-categories/fish-passage) protocol documents. Presence/absence of fish, species composition/density and distribution limits can be useful for prioritizing which crossings are a best fit for fish passage restoration and help inform follow up monitoring so electrofishing and minnowtrapping may be conducted.  Standard Fish and Fish Habitat Inventory Standard Field Form [site cards](https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/laws-policies-standards-guidance/inventory-standards/aquatic-ecosystems) are used to gather habitat data.
 
 <br>
@@ -102,8 +104,8 @@ A summary of sites to be potentially assessed is included as Table \@ref(tab:tab
 
 <!-- The latest version of this safety plan can be viewed [online](`r knitr::asis_output(link_repo)`). -->
 
-
-
+## Check In Procedures
+Call, text or inreach Tara Stark (2505059854) each morning to share the plan for the day (i.e. name of roads and sites).  Check in time is before 7 pm each evening although we regularly check in throughout the day (ex. at arrival to site, 1pm and 4pm) on the inreach or by text and report position/provide updates.  
 
 
 ```{r load}
