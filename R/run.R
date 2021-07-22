@@ -8,7 +8,7 @@
 name_project <- 'bulkley_2021'
 
 ##we need to get our private data file moved over
-file.copy('C:/scripts/fish_passage_2021_permit_app_elk/R/private_info.R', 'R/private_info.R')
+file.copy('C:/scripts/private_info.R', 'R/private_info.R')
 
 pagedown::chrome_print('safety_plan.Rmd')
 
