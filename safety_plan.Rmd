@@ -52,6 +52,7 @@ options(knitr.kable.NAN = '--')
 
 source('R/packages.R')
 source('R/functions.R')
+source('R/private_info.R')
 
 name_project <- 'bulkley_2021'
 name_repo <- 'safety_plan'
@@ -62,6 +63,18 @@ link_kml <- paste0('https://github.com/NewGraphEnvironment/', name_repo, '/raw/m
 link_pdf <- paste0('https://github.com/NewGraphEnvironment/', name_repo, '/raw/main/docs/', name_pdf, '_', name_project, '.pdf')
 link_fieldmaps <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/bulkley/'
 link_fieldmaps2 <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/morice/' 
+```
+
+
+```{r info-hospitals}
+hospital_name <- 'Houston Health Centre'
+hospital_phone <- '250-845-2294'
+hospital_address <- '3202 14 St, Houston, BC V0J 1Z0'
+
+
+hospital_name2 <- '(Smithers) Bulkley Valley District Hospital'
+hospital_phone2 <- '250-847-2611'
+hospital_address2 <- '3950 8 Ave, Smithers, BC V0J 2N0'
 ```
 
 ```{r settings-gitbook, eval= gitbook_on}
@@ -75,9 +88,6 @@ photo_width <- "80%"
 font_set <- 9
 ```
 
-```{r}
-
-```
 
 The latest version of this pdf can be downloaded [here](`r knitr::asis_output(link_pdf)`).
 
@@ -93,7 +103,57 @@ A zip file which includes kml (google earth) and gpx (garmin) files of the sites
 
 <br>
 
-## Field Plan
+*Nearest Hospitals*
+
+
+```{r hospital-1, fig.cap=my_caption, fig.width=6}
+
+my_caption = paste(hospital_name, hospital_address, hospital_phone, sep = ' - ')
+
+##register google key defined in 'R/private_info.R' file
+ggmap::register_google(key = google_api_key)
+
+# hospital_address_geocode <- 
+
+#define the area of the base map by using a bounding box 
+mybasemap <- ggmap::get_map(location = hospital_address,
+                     source = "google",
+                     zoom = 15,
+                    maptype = "roadmap")  
+
+
+
+ggmap::ggmap(mybasemap)
+  # geom_point(data = geocode(hospital_address), 
+  #            aes(x = lon, y = lat, colour = "black", stroke = 10), #https://stackoverflow.com/questions/54803891/custom-shape-in-ggplot-geom-point
+  #            show.legend = F)
+
+knitr::asis_output(paste(hospital_name, hospital_address, hospital_phone, sep = ' - '))    
+```
+
+<br>
+
+```{r hospital2, fig.cap='my_caption', fig.width=6}
+
+#define the area of the base map by using a bounding box 
+mybasemap <- ggmap::get_map(location = hospital_address2,
+                     source = "google",
+                     zoom = 16,
+                    maptype = "roadmap")  
+
+
+
+ggmap::ggmap(mybasemap)
+  # geom_point(data = geocode(hospital_address), 
+  #            aes(x = lon, y = lat, colour = "black", stroke = 10), #https://stackoverflow.com/questions/54803891/custom-shape-in-ggplot-geom-point
+  #            show.legend = F)
+
+knitr::asis_output(paste(hospital_name2, hospital_address2, hospital_phone2, sep = ' - ')) 
+```
+
+<br>
+
+*Field Plan*
 
 Field work methods will generally follow procedures in [fish passage assessments](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/field-assessment-for-determining-fish-passage-status-of-cbs.pdf) and [habitat confirmations](https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/land-based-investment/investment-categories/fish-passage) protocol documents. Presence/absence of fish, species composition/density and distribution limits can be useful for prioritizing which crossings are a best fit for fish passage restoration and help inform follow up monitoring so electrofishing and minnowtrapping may be conducted.  Standard Fish and Fish Habitat Inventory Standard Field Form [site cards](https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/laws-policies-standards-guidance/inventory-standards/aquatic-ecosystems) are used to gather habitat data.
 
@@ -103,12 +163,55 @@ Field work methods will generally follow procedures in [fish passage assessments
 A summary of sites to be potentially assessed is included as Table \@ref(tab:tab-sites) and an overview map of displaying potential sample locations is included as Figure 1.
 
 <!-- The latest version of this safety plan can be viewed [online](`r knitr::asis_output(link_repo)`). -->
+<br>
 
-## Check In Procedures
+*Check In Procedures*
+
+<br>
+
 Call, text or inreach Tara Stark (2505059854) each morning to share the plan for the day (i.e. name of roads and sites).  Check in time is before 7 pm each evening although we regularly check in throughout the day (ex. at arrival to site, 1pm and 4pm) on the inreach or by text and report position/provide updates.  
 
+<br>
 
-```{r load}
+*Procedures for Failed Check-In - for Check in person*
+
+<br>
+
+Procedures are summarized in the following Figure. If phone call or inReach check-in is not received by 7pm send text to inreach units, call or text cell phones of field crew members. If no response please call accommodations then personal emergency contacts to see if they have heard anything.  Wait 1 hour and text inreach, text or call cell phones and personal emergency contacts and accomodations again. Repeat after 2 hours (9 pm) - if no response then notify the RCMP of a missing persons in field.
+
+<br>
+
+
+```{r flow-check-in-fail, fig.cap= 'Procedures for failed check-in', eval=T}
+#  Not sure why this doesn't work yet
+DiagrammeR::grViz("digraph rmarkdown{
+  
+graph[layout = dot, rankdir = LR]
+
+d1 [label = 'check-in not \n received by 7pm']
+d2 [label = 'Step 1 \n call or text cell phones \n of field crew members']
+d3 [label = 'Step 2 \n call accomodations']
+d4 [label = 'wait 1 hour (8pm) \n repeat Steps 1 & 2']
+d5 [label = 'wait 1 hour (9pm) \n repeat Steps 1 & 2']
+d6 [label = 'AT 9pm notify RCMP of \n missing persons in field after repeating Steps 1 & 2']
+
+
+d1 -> d2 -> d3 
+d4 -> d2 -> d3 
+d5 -> d2 -> d3 
+d5 -> d6
+}") %>% 
+  DiagrammeRsvg::export_svg() %>% 
+  charToRaw %>%
+  rsvg::rsvg_png("fig/flow-check-in-fail.png")
+  
+  
+knitr::include_graphics("fig/flow-check-in-fail.png")
+
+```
+
+
+```{r load, eval=T}
 ##load up the kml for the Morice planning
 
 
@@ -159,7 +262,6 @@ sites_2020 <- sites_2020_raw %>%
 
 ```{r pull-db}
 ##pull out what we need from the database
-source('R/private_info.R')
 conn <- DBI::dbConnect(
   RPostgres::Postgres(),
   dbname = dbname_wsl,
@@ -290,10 +392,13 @@ table_sites <- left_join(tab_prep3,
 ```
 
 
-```{r gpx}
+```{r gpx, results='hide'}
 
 dir.create('mapping')
 
+##remove the old gpx
+files_to_delete <- paste0("mapping/", list.files(path = "mapping/", pattern = "\\.gpx$"))
+file.remove(files_to_delete)
 
 #make a gpx file 
 table_sites %>% 
@@ -305,7 +410,13 @@ table_sites %>%
 
 ```
 
-```{r kml}
+```{r kml, results='hide'}
+
+##remove the old kml
+files_to_delete <- paste0("mapping/", list.files(path = "mapping/", pattern = "\\.kml$"))
+file.remove(files_to_delete)
+
+
 ##make a kml for adding the georef pdf and sharing with stakeholders
 
 df <- table_sites %>%
@@ -331,13 +442,22 @@ kml_layer(sites_kml, colour = '#ff7f00', shape = sites_kml$shape, labels = sites
           z.scale = 2, LabelScale = 1, size = 1.5)  ##I don't see the label
 kml_close(paste0("mapping/sites_", name_project, '_', format(Sys.Date(), "%Y%m%d"), '.kml'))
 
-##now we will zip up the kml files in the data folder and rename with kmz
-files_to_zip <- paste0("mapping/", list.files(path = "mapping/", pattern = "\\.kml$|.gpx$"))  ##this will zip all kmls in file so watch out
-zip::zipr(paste0("docs/sites_", name_project, '_', format(Sys.Date(), "%Y%m%d"), '_kml_gpx.zip'), files = files_to_zip)  ##it does not work to zip to kmz!!
+
 
 
 ```
 
+```{r zip-together, results='hide'}
+##now we will zip up the kml files in the data folder and rename with kmz
+##remove the old zip
+files_to_delete <- paste0("docs/", list.files(path = "docs/", pattern = "\\.zip$"))
+file.remove(files_to_delete)
+
+
+
+files_to_zip <- paste0("mapping/", list.files(path = "mapping/", pattern = "\\.kml$|.gpx$"))  ##this will zip all kmls in file so watch out
+zip::zipr(paste0("docs/sites_", name_project, '_', format(Sys.Date(), "%Y%m%d"), '_kml_gpx.zip'), files = files_to_zip)  ##it does not work to zip to kmz!!
+```
 
 
 `r if(gitbook_on){knitr::asis_output("<br>")} else knitr::asis_output("<br><br><br><br><br><br><br>")`
