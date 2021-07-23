@@ -155,9 +155,9 @@ knitr::asis_output(paste(hospital_name2, hospital_address2, hospital_phone2, sep
 
 *Field Plan*
 
-Field work methods will generally follow procedures in 
+Field work methods will result in products feeding reporting formats such as the [2020 deliverables](https://newgraphenvironment.github.io/fish_passage_bulkley_2020_reporting/) and will generally follow procedures in: 
 
- * [fish passage assessments](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/field-assessment-for-determining-fish-passage-status-of-cbs.pdf) and 
+ * [fish passage assessments](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/field-assessment-for-determining-fish-passage-status-of-cbs.pdf) 
 
  * [habitat confirmations](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/checklist-for-fish-habitat-confirmation-201112.pdf) 
  
