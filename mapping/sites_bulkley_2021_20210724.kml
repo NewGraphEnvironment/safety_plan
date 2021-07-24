@@ -1393,6 +1393,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -1411,6 +1413,8 @@
    <td style="text-align:right;border: 1px solid black;"> 3042 </td>
    <td style="text-align:right;border: 1px solid black;"> 1804508 </td>
    <td style="text-align:right;border: 1px solid black;"> 3042 </td>
+   <td style="text-align:right;border: 1px solid black;"> 654455.6 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6042810 </td>
    <td style="text-align:right;border: 1px solid black;"> 390.6694 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.08 </td>
    <td style="text-align:right;border: 1px solid black;"> 0 </td>
@@ -1440,6 +1444,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -1459,6 +1465,8 @@
    <td style="text-align:right;border: 1px solid black;"> 3054 </td>
    <td style="text-align:right;border: 1px solid black;"> 1803558 </td>
    <td style="text-align:right;border: 1px solid black;"> 3054 </td>
+   <td style="text-align:right;border: 1px solid black;"> 664883.5 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6052690 </td>
    <td style="text-align:left;border: 1px solid black;"> {RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 1295.542 </td>
    <td style="text-align:right;border: 1px solid black;"> 4.72 </td>
@@ -1489,6 +1497,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -1506,6 +1516,8 @@
    <td style="text-align:right;border: 1px solid black;"> 3139 </td>
    <td style="text-align:right;border: 1px solid black;"> 1803553 </td>
    <td style="text-align:right;border: 1px solid black;"> 3139 </td>
+   <td style="text-align:right;border: 1px solid black;"> 656650.7 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6048543 </td>
    <td style="text-align:right;border: 1px solid black;"> 892.4382 </td>
    <td style="text-align:right;border: 1px solid black;"> 4.08 </td>
    <td style="text-align:right;border: 1px solid black;"> 6.66 </td>
@@ -1534,6 +1546,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -1554,6 +1568,8 @@
    <td style="text-align:right;border: 1px solid black;"> 57944 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800167 </td>
    <td style="text-align:right;border: 1px solid black;"> 57944 </td>
+   <td style="text-align:right;border: 1px solid black;"> 607729 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6089383 </td>
    <td style="text-align:left;border: 1px solid black;"> {CC,CH,CO,CT,DV,KO,L,LSU,MW,OS,PK,RB,SK,SST,ST} </td>
    <td style="text-align:right;border: 1px solid black;"> 11987.48 </td>
    <td style="text-align:right;border: 1px solid black;"> 14.71 </td>
@@ -1585,6 +1601,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -1604,6 +1622,8 @@
    <td style="text-align:right;border: 1px solid black;"> 58159 </td>
    <td style="text-align:right;border: 1px solid black;"> 1802236 </td>
    <td style="text-align:right;border: 1px solid black;"> 58159 </td>
+   <td style="text-align:right;border: 1px solid black;"> 627642.5 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6060449 </td>
    <td style="text-align:left;border: 1px solid black;"> {CO,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 1590.953 </td>
    <td style="text-align:right;border: 1px solid black;"> 3.77 </td>
@@ -1634,6 +1654,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -1653,6 +1675,8 @@
    <td style="text-align:right;border: 1px solid black;"> 123445 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800114 </td>
    <td style="text-align:right;border: 1px solid black;"> 123445 </td>
+   <td style="text-align:right;border: 1px solid black;"> 627236.1 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6061461 </td>
    <td style="text-align:left;border: 1px solid black;"> {BB,C,CAS,CC,CH,CM,CO,CT,GPW,LSU,MW,NSC,PCC,PK,PW,RB,RDC,RSC,SA,SK,ST,SU} </td>
    <td style="text-align:right;border: 1px solid black;"> 3498.787 </td>
    <td style="text-align:right;border: 1px solid black;"> 8.28 </td>
@@ -1683,6 +1707,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -1702,6 +1728,8 @@
    <td style="text-align:right;border: 1px solid black;"> 123446 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800285 </td>
    <td style="text-align:right;border: 1px solid black;"> 123446 </td>
+   <td style="text-align:right;border: 1px solid black;"> 627516.1 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6061772 </td>
    <td style="text-align:left;border: 1px solid black;"> {BB,C,CAS,CC,CH,CM,CO,CT,GPW,LSU,MW,NSC,PCC,PK,PW,RB,RDC,RSC,SA,SK,ST,SU} </td>
    <td style="text-align:right;border: 1px solid black;"> 3498.787 </td>
    <td style="text-align:right;border: 1px solid black;"> 8.28 </td>
@@ -1732,6 +1760,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -1752,6 +1782,8 @@
    <td style="text-align:right;border: 1px solid black;"> 123770 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800045 </td>
    <td style="text-align:right;border: 1px solid black;"> 123770 </td>
+   <td style="text-align:right;border: 1px solid black;"> 606626.5 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6097185 </td>
    <td style="text-align:left;border: 1px solid black;"> {BT,CH,CT,DV,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 8063.779 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.08 </td>
@@ -1783,6 +1815,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -1803,6 +1837,8 @@
    <td style="text-align:right;border: 1px solid black;"> 123776 </td>
    <td style="text-align:right;border: 1px solid black;"> 24703647 </td>
    <td style="text-align:right;border: 1px solid black;"> 123776 </td>
+   <td style="text-align:right;border: 1px solid black;"> 606462.4 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6100156 </td>
    <td style="text-align:left;border: 1px solid black;"> {DV,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 6669.792 </td>
    <td style="text-align:right;border: 1px solid black;"> 2.32 </td>
@@ -1834,6 +1870,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -1852,6 +1890,8 @@
    <td style="text-align:right;border: 1px solid black;"> 123794 </td>
    <td style="text-align:right;border: 1px solid black;"> 1802384 </td>
    <td style="text-align:right;border: 1px solid black;"> 123794 </td>
+   <td style="text-align:right;border: 1px solid black;"> 616107.8 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6106762 </td>
    <td style="text-align:left;border: 1px solid black;"> {DV} </td>
    <td style="text-align:right;border: 1px solid black;"> 90.2995 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.3 </td>
@@ -1881,6 +1921,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -1897,6 +1939,8 @@
    <td style="text-align:right;border: 1px solid black;"> 123795 </td>
    <td style="text-align:right;border: 1px solid black;"> 1802385 </td>
    <td style="text-align:right;border: 1px solid black;"> 123795 </td>
+   <td style="text-align:right;border: 1px solid black;"> 615790.5 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6106837 </td>
    <td style="text-align:left;border: 1px solid black;"> {SA} </td>
    <td style="text-align:right;border: 1px solid black;"> 0 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.73 </td>
@@ -1924,6 +1968,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -1944,6 +1990,8 @@
    <td style="text-align:right;border: 1px solid black;"> 124420 </td>
    <td style="text-align:right;border: 1px solid black;"> 1803403 </td>
    <td style="text-align:right;border: 1px solid black;"> 124420 </td>
+   <td style="text-align:right;border: 1px solid black;"> 586632.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6122395 </td>
    <td style="text-align:left;border: 1px solid black;"> {BT,CO,CT,DV,PK,RB,SP} </td>
    <td style="text-align:right;border: 1px solid black;"> 2861.468 </td>
    <td style="text-align:right;border: 1px solid black;"> 4.16 </td>
@@ -1975,6 +2023,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -1994,6 +2044,8 @@
    <td style="text-align:right;border: 1px solid black;"> 124487 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800383 </td>
    <td style="text-align:right;border: 1px solid black;"> 124487 </td>
+   <td style="text-align:right;border: 1px solid black;"> 603072.9 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6113379 </td>
    <td style="text-align:left;border: 1px solid black;"> {DV,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 4352.707 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.44 </td>
@@ -2024,6 +2076,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2044,6 +2098,8 @@
    <td style="text-align:right;border: 1px solid black;"> 124500 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800175 </td>
    <td style="text-align:right;border: 1px solid black;"> 124500 </td>
+   <td style="text-align:right;border: 1px solid black;"> 627540.8 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6058702 </td>
    <td style="text-align:left;border: 1px solid black;"> {CT,DV,LNC,LSU,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 4140.626 </td>
    <td style="text-align:right;border: 1px solid black;"> 4.55 </td>
@@ -2075,6 +2131,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2093,6 +2151,8 @@
    <td style="text-align:right;border: 1px solid black;"> 124501 </td>
    <td style="text-align:right;border: 1px solid black;"> 1802796 </td>
    <td style="text-align:right;border: 1px solid black;"> 124501 </td>
+   <td style="text-align:right;border: 1px solid black;"> 630668.1 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6055705 </td>
    <td style="text-align:left;border: 1px solid black;"> {DV,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 1488.687 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.1 </td>
@@ -2122,6 +2182,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2142,6 +2204,8 @@
    <td style="text-align:right;border: 1px solid black;"> 124504 </td>
    <td style="text-align:right;border: 1px solid black;"> 1803401 </td>
    <td style="text-align:right;border: 1px solid black;"> 124504 </td>
+   <td style="text-align:right;border: 1px solid black;"> 634329.8 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6054584 </td>
    <td style="text-align:left;border: 1px solid black;"> {CSU,CT,DV,LSU,MW,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 4521.671 </td>
    <td style="text-align:right;border: 1px solid black;"> 7.83 </td>
@@ -2173,6 +2237,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2193,6 +2259,8 @@
    <td style="text-align:right;border: 1px solid black;"> 195288 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800098 </td>
    <td style="text-align:right;border: 1px solid black;"> 195288 </td>
+   <td style="text-align:right;border: 1px solid black;"> 640930 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6051567 </td>
    <td style="text-align:left;border: 1px solid black;"> {CT,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 1341.749 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.62 </td>
@@ -2224,6 +2292,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2244,6 +2314,8 @@
    <td style="text-align:right;border: 1px solid black;"> 195290 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800099 </td>
    <td style="text-align:right;border: 1px solid black;"> 195290 </td>
+   <td style="text-align:right;border: 1px solid black;"> 640022.2 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6051682 </td>
    <td style="text-align:left;border: 1px solid black;"> {CT,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 1710.592 </td>
    <td style="text-align:right;border: 1px solid black;"> 2.16 </td>
@@ -2275,6 +2347,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2294,6 +2368,8 @@
    <td style="text-align:right;border: 1px solid black;"> 197360 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000711 </td>
    <td style="text-align:right;border: 1px solid black;"> 197360 </td>
+   <td style="text-align:right;border: 1px solid black;"> 649932.4 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5992396 </td>
    <td style="text-align:left;border: 1px solid black;"> {LSU,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 2888.638 </td>
    <td style="text-align:right;border: 1px solid black;"> 5.89 </td>
@@ -2324,6 +2400,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -2344,6 +2422,8 @@
    <td style="text-align:right;border: 1px solid black;"> 197365 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000709 </td>
    <td style="text-align:right;border: 1px solid black;"> 197365 </td>
+   <td style="text-align:right;border: 1px solid black;"> 643620.5 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6003246 </td>
    <td style="text-align:right;border: 1px solid black;"> 641.1881 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.16 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.85 </td>
@@ -2375,6 +2455,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2395,6 +2477,8 @@
    <td style="text-align:right;border: 1px solid black;"> 197378 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001179 </td>
    <td style="text-align:right;border: 1px solid black;"> 197378 </td>
+   <td style="text-align:right;border: 1px solid black;"> 645084.9 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5998822 </td>
    <td style="text-align:left;border: 1px solid black;"> {DV,LNC,MW,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 792.4231 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.84 </td>
@@ -2426,6 +2510,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2446,6 +2532,8 @@
    <td style="text-align:right;border: 1px solid black;"> 197379 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000712 </td>
    <td style="text-align:right;border: 1px solid black;"> 197379 </td>
+   <td style="text-align:right;border: 1px solid black;"> 640960.8 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6005930 </td>
    <td style="text-align:left;border: 1px solid black;"> {CO,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 3294.89 </td>
    <td style="text-align:right;border: 1px solid black;"> 9.62 </td>
@@ -2477,6 +2565,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2496,6 +2586,8 @@
    <td style="text-align:right;border: 1px solid black;"> 197640 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800092 </td>
    <td style="text-align:right;border: 1px solid black;"> 197640 </td>
+   <td style="text-align:right;border: 1px solid black;"> 654312 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6012383 </td>
    <td style="text-align:left;border: 1px solid black;"> {RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 2390.708 </td>
    <td style="text-align:right;border: 1px solid black;"> 3.37 </td>
@@ -2526,6 +2618,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2545,6 +2639,8 @@
    <td style="text-align:right;border: 1px solid black;"> 197658 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800062 </td>
    <td style="text-align:right;border: 1px solid black;"> 197658 </td>
+   <td style="text-align:right;border: 1px solid black;"> 666846.8 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6044305 </td>
    <td style="text-align:left;border: 1px solid black;"> {CO,CSU,LNC,LSU,RB,RSC,ST} </td>
    <td style="text-align:right;border: 1px solid black;"> 8993.109 </td>
    <td style="text-align:right;border: 1px solid black;"> 33.54 </td>
@@ -2575,6 +2671,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2595,6 +2693,8 @@
    <td style="text-align:right;border: 1px solid black;"> 197662 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800060 </td>
    <td style="text-align:right;border: 1px solid black;"> 197662 </td>
+   <td style="text-align:right;border: 1px solid black;"> 672404.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6044146 </td>
    <td style="text-align:left;border: 1px solid black;"> {CH,CO,LKC,LNC,LSU,RB,SST,ST} </td>
    <td style="text-align:right;border: 1px solid black;"> 16126.31 </td>
    <td style="text-align:right;border: 1px solid black;"> 58.65 </td>
@@ -2626,6 +2726,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2646,6 +2748,8 @@
    <td style="text-align:right;border: 1px solid black;"> 197663 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800213 </td>
    <td style="text-align:right;border: 1px solid black;"> 197663 </td>
+   <td style="text-align:right;border: 1px solid black;"> 670240.6 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6044772 </td>
    <td style="text-align:left;border: 1px solid black;"> {RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 4351.678 </td>
    <td style="text-align:right;border: 1px solid black;"> 6.98 </td>
@@ -2677,6 +2781,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2696,6 +2802,8 @@
    <td style="text-align:right;border: 1px solid black;"> 197664 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800076 </td>
    <td style="text-align:right;border: 1px solid black;"> 197664 </td>
+   <td style="text-align:right;border: 1px solid black;"> 660454.7 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6037919 </td>
    <td style="text-align:left;border: 1px solid black;"> {CH,CO,CT,L,RB,SST,ST} </td>
    <td style="text-align:right;border: 1px solid black;"> 2453.42 </td>
    <td style="text-align:right;border: 1px solid black;"> 3.5 </td>
@@ -2726,6 +2834,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2745,6 +2855,8 @@
    <td style="text-align:right;border: 1px solid black;"> 197665 </td>
    <td style="text-align:right;border: 1px solid black;"> 24740019 </td>
    <td style="text-align:right;border: 1px solid black;"> 197665 </td>
+   <td style="text-align:right;border: 1px solid black;"> 660628.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6037843 </td>
    <td style="text-align:left;border: 1px solid black;"> {BB,BMC,BT,CAS,CBA,CC,CH,CO,CSU,CT,DV,L,LKC,LNC,LSU,LT,LW,MW,NSB,NSC,PCC,PL,RB,RSC,SK,SP,SST,ST,TR} </td>
    <td style="text-align:right;border: 1px solid black;"> 140593.6 </td>
    <td style="text-align:right;border: 1px solid black;"> 417.53 </td>
@@ -2775,6 +2887,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2793,6 +2907,8 @@
    <td style="text-align:right;border: 1px solid black;"> 197667 </td>
    <td style="text-align:right;border: 1px solid black;"> 1805606 </td>
    <td style="text-align:right;border: 1px solid black;"> 197667 </td>
+   <td style="text-align:right;border: 1px solid black;"> 631092.4 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6055867 </td>
    <td style="text-align:left;border: 1px solid black;"> {CT,DV,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 1488.687 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.1 </td>
@@ -2822,6 +2938,8 @@
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> stream_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2842,6 +2960,8 @@
    <td style="text-align:right;border: 1px solid black;"> 197668 </td>
    <td style="text-align:right;border: 1px solid black;"> 1805608 </td>
    <td style="text-align:right;border: 1px solid black;"> 197668 </td>
+   <td style="text-align:right;border: 1px solid black;"> 634342 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6054605 </td>
    <td style="text-align:left;border: 1px solid black;"> {CSU,CT,DV,LSU,MW,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 4521.671 </td>
    <td style="text-align:right;border: 1px solid black;"> 7.83 </td>
@@ -2872,6 +2992,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -2889,6 +3011,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001800048 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800048 </td>
+   <td style="text-align:right;border: 1px solid black;"> 674397.1 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6043433 </td>
    <td style="text-align:right;border: 1px solid black;"> 3655.09 </td>
    <td style="text-align:right;border: 1px solid black;"> 4.95 </td>
    <td style="text-align:right;border: 1px solid black;"> 22.8 </td>
@@ -2917,6 +3041,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -2936,6 +3062,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001800050 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800050 </td>
+   <td style="text-align:right;border: 1px solid black;"> 692434.6 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6032331 </td>
    <td style="text-align:left;border: 1px solid black;"> {BMC,CSU,LKC,LNC,LSU,NSC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 9376.756 </td>
    <td style="text-align:right;border: 1px solid black;"> 37.59 </td>
@@ -2953,6 +3081,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001800050 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800050 </td>
+   <td style="text-align:right;border: 1px solid black;"> 692434.6 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6032331 </td>
    <td style="text-align:left;border: 1px solid black;"> {BMC,CSU,LKC,LNC,LSU,NSC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 9376.756 </td>
    <td style="text-align:right;border: 1px solid black;"> 37.59 </td>
@@ -2983,6 +3113,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3002,6 +3134,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001800050 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800050 </td>
+   <td style="text-align:right;border: 1px solid black;"> 692434.6 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6032331 </td>
    <td style="text-align:left;border: 1px solid black;"> {BMC,CSU,LKC,LNC,LSU,NSC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 9376.756 </td>
    <td style="text-align:right;border: 1px solid black;"> 37.59 </td>
@@ -3019,6 +3153,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001800050 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800050 </td>
+   <td style="text-align:right;border: 1px solid black;"> 692434.6 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6032331 </td>
    <td style="text-align:left;border: 1px solid black;"> {BMC,CSU,LKC,LNC,LSU,NSC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 9376.756 </td>
    <td style="text-align:right;border: 1px solid black;"> 37.59 </td>
@@ -3049,6 +3185,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3068,6 +3206,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001800355 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800355 </td>
+   <td style="text-align:right;border: 1px solid black;"> 680644.8 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6039756 </td>
    <td style="text-align:left;border: 1px solid black;"> {CO,CT,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 6690.639 </td>
    <td style="text-align:right;border: 1px solid black;"> 22.3 </td>
@@ -3098,6 +3238,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3117,6 +3259,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001800356 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800356 </td>
+   <td style="text-align:right;border: 1px solid black;"> 680383.2 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6040056 </td>
    <td style="text-align:left;border: 1px solid black;"> {CO,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 1786.223 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.14 </td>
@@ -3147,6 +3291,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3166,6 +3312,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001800422 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800422 </td>
+   <td style="text-align:right;border: 1px solid black;"> 679525.4 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6039649 </td>
    <td style="text-align:left;border: 1px solid black;"> {CO,CT,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 9465.657 </td>
    <td style="text-align:right;border: 1px solid black;"> 24.68 </td>
@@ -3196,6 +3344,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3214,6 +3364,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001800752 </td>
    <td style="text-align:right;border: 1px solid black;"> 1800752 </td>
+   <td style="text-align:right;border: 1px solid black;"> 676767 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6031209 </td>
    <td style="text-align:left;border: 1px solid black;"> {BB,CSU,LSU,LW,NSC,PCC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 1995.848 </td>
    <td style="text-align:right;border: 1px solid black;"> 21.13 </td>
@@ -3243,6 +3395,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3262,6 +3416,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001801122 </td>
    <td style="text-align:right;border: 1px solid black;"> 1801122 </td>
+   <td style="text-align:right;border: 1px solid black;"> 680832 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6040045 </td>
    <td style="text-align:left;border: 1px solid black;"> {CO,CT,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 6690.639 </td>
    <td style="text-align:right;border: 1px solid black;"> 22.3 </td>
@@ -3292,6 +3448,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3310,6 +3468,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001801133 </td>
    <td style="text-align:right;border: 1px solid black;"> 1801133 </td>
+   <td style="text-align:right;border: 1px solid black;"> 674339.1 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6039595 </td>
    <td style="text-align:left;border: 1px solid black;"> {BB,CBA,CC,CSU,LKC,LSU,LW,MW,NSB,NSC,PCC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 8087.398 </td>
    <td style="text-align:right;border: 1px solid black;"> 50.19 </td>
@@ -3339,6 +3499,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3357,6 +3519,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001801773 </td>
    <td style="text-align:right;border: 1px solid black;"> 1801773 </td>
+   <td style="text-align:right;border: 1px solid black;"> 603432.1 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6107844 </td>
    <td style="text-align:left;border: 1px solid black;"> {BT,DV} </td>
    <td style="text-align:right;border: 1px solid black;"> 5582.463 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.96 </td>
@@ -3386,6 +3550,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3404,6 +3570,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001801969 </td>
    <td style="text-align:right;border: 1px solid black;"> 1801969 </td>
+   <td style="text-align:right;border: 1px solid black;"> 673797.1 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6038906 </td>
    <td style="text-align:left;border: 1px solid black;"> {BB,CBA,CC,CSU,LKC,LSU,LW,MW,NSB,NSC,PCC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 4882.436 </td>
    <td style="text-align:right;border: 1px solid black;"> 34.53 </td>
@@ -3433,6 +3601,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3452,6 +3622,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001802044 </td>
    <td style="text-align:right;border: 1px solid black;"> 1802044 </td>
+   <td style="text-align:right;border: 1px solid black;"> 683959 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6041007 </td>
    <td style="text-align:left;border: 1px solid black;"> {CT,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 5926.381 </td>
    <td style="text-align:right;border: 1px solid black;"> 21.49 </td>
@@ -3482,6 +3654,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3501,6 +3675,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001802088 </td>
    <td style="text-align:right;border: 1px solid black;"> 1802088 </td>
+   <td style="text-align:right;border: 1px solid black;"> 669947 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6047217 </td>
    <td style="text-align:left;border: 1px solid black;"> {LSU,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 2618.005 </td>
    <td style="text-align:right;border: 1px solid black;"> 8.43 </td>
@@ -3531,6 +3707,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3550,6 +3728,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001802089 </td>
    <td style="text-align:right;border: 1px solid black;"> 1802089 </td>
+   <td style="text-align:right;border: 1px solid black;"> 668873 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6046967 </td>
    <td style="text-align:left;border: 1px solid black;"> {RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 3818.6 </td>
    <td style="text-align:right;border: 1px solid black;"> 6.98 </td>
@@ -3580,6 +3760,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3599,6 +3781,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001802106 </td>
    <td style="text-align:right;border: 1px solid black;"> 1802106 </td>
+   <td style="text-align:right;border: 1px solid black;"> 670963 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6046221 </td>
    <td style="text-align:left;border: 1px solid black;"> {LSU,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 3150.824 </td>
    <td style="text-align:right;border: 1px solid black;"> 8.74 </td>
@@ -3629,6 +3813,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3648,6 +3834,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001802760 </td>
    <td style="text-align:right;border: 1px solid black;"> 1802760 </td>
+   <td style="text-align:right;border: 1px solid black;"> 640551.2 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6053250 </td>
    <td style="text-align:left;border: 1px solid black;"> {C,CT,DV,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 6676.635 </td>
    <td style="text-align:right;border: 1px solid black;"> 15.73 </td>
@@ -3678,6 +3866,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3697,6 +3887,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001802820 </td>
    <td style="text-align:right;border: 1px solid black;"> 1802820 </td>
+   <td style="text-align:right;border: 1px solid black;"> 640327.1 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6053029 </td>
    <td style="text-align:left;border: 1px solid black;"> {C,CH,CM,CO,CT,DV,PK,RB,SA,SK,ST} </td>
    <td style="text-align:right;border: 1px solid black;"> 7638.093 </td>
    <td style="text-align:right;border: 1px solid black;"> 15.73 </td>
@@ -3727,6 +3919,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3746,6 +3940,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001803682 </td>
    <td style="text-align:right;border: 1px solid black;"> 1803682 </td>
+   <td style="text-align:right;border: 1px solid black;"> 682026.1 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6028531 </td>
    <td style="text-align:left;border: 1px solid black;"> {CAS,LNC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 6137.882 </td>
    <td style="text-align:right;border: 1px solid black;"> 4.11 </td>
@@ -3776,6 +3972,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3794,6 +3992,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001804694 </td>
    <td style="text-align:right;border: 1px solid black;"> 1804694 </td>
+   <td style="text-align:right;border: 1px solid black;"> 688604 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6019911 </td>
    <td style="text-align:left;border: 1px solid black;"> {RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 2153.98 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.72 </td>
@@ -3823,6 +4023,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3842,6 +4044,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001805529 </td>
    <td style="text-align:right;border: 1px solid black;"> 1805529 </td>
+   <td style="text-align:right;border: 1px solid black;"> 691218.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6031478 </td>
    <td style="text-align:left;border: 1px solid black;"> {BMC,CAS,CO,CSU,LKC,LNC,LSU,NSC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 9376.756 </td>
    <td style="text-align:right;border: 1px solid black;"> 37.59 </td>
@@ -3859,6 +4063,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001805529 </td>
    <td style="text-align:right;border: 1px solid black;"> 1805529 </td>
+   <td style="text-align:right;border: 1px solid black;"> 691218.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6031478 </td>
    <td style="text-align:left;border: 1px solid black;"> {BMC,CAS,CO,CSU,LKC,LNC,LSU,NSC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 9376.756 </td>
    <td style="text-align:right;border: 1px solid black;"> 37.59 </td>
@@ -3889,6 +4095,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3908,6 +4116,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001805529 </td>
    <td style="text-align:right;border: 1px solid black;"> 1805529 </td>
+   <td style="text-align:right;border: 1px solid black;"> 691218.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6031478 </td>
    <td style="text-align:left;border: 1px solid black;"> {BMC,CAS,CO,CSU,LKC,LNC,LSU,NSC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 9376.756 </td>
    <td style="text-align:right;border: 1px solid black;"> 37.59 </td>
@@ -3925,6 +4135,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001805529 </td>
    <td style="text-align:right;border: 1px solid black;"> 1805529 </td>
+   <td style="text-align:right;border: 1px solid black;"> 691218.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6031478 </td>
    <td style="text-align:left;border: 1px solid black;"> {BMC,CAS,CO,CSU,LKC,LNC,LSU,NSC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 9376.756 </td>
    <td style="text-align:right;border: 1px solid black;"> 37.59 </td>
@@ -3955,6 +4167,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -3974,6 +4188,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001805532 </td>
    <td style="text-align:right;border: 1px solid black;"> 1805532 </td>
+   <td style="text-align:right;border: 1px solid black;"> 685314.1 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6030317 </td>
    <td style="text-align:left;border: 1px solid black;"> {CAS,CO,LNC,PL,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 7324.332 </td>
    <td style="text-align:right;border: 1px solid black;"> 5.63 </td>
@@ -4004,6 +4220,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -4023,6 +4241,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001805553 </td>
    <td style="text-align:right;border: 1px solid black;"> 1805553 </td>
+   <td style="text-align:right;border: 1px solid black;"> 611695.8 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6082109 </td>
    <td style="text-align:left;border: 1px solid black;"> {CC,CO,CT,DV,KO,LSU,MW,OS,RB,SK,ST} </td>
    <td style="text-align:right;border: 1px solid black;"> 2960.387 </td>
    <td style="text-align:right;border: 1px solid black;"> 7.2 </td>
@@ -4053,6 +4273,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -4072,6 +4294,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1001805665 </td>
    <td style="text-align:right;border: 1px solid black;"> 1805665 </td>
+   <td style="text-align:right;border: 1px solid black;"> 627078.8 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6072988 </td>
    <td style="text-align:left;border: 1px solid black;"> {CO,DV,RB,TR} </td>
    <td style="text-align:right;border: 1px solid black;"> 14218.41 </td>
    <td style="text-align:right;border: 1px solid black;"> 24.44 </td>
@@ -4102,6 +4326,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -4121,6 +4347,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000009 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000009 </td>
+   <td style="text-align:right;border: 1px solid black;"> 646923.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6028170 </td>
    <td style="text-align:left;border: 1px solid black;"> {RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 4022.792 </td>
    <td style="text-align:right;border: 1px solid black;"> 3.95 </td>
@@ -4151,6 +4379,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -4171,6 +4401,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000255 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000255 </td>
+   <td style="text-align:right;border: 1px solid black;"> 613441 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5999564 </td>
    <td style="text-align:right;border: 1px solid black;"> 836.224 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.66 </td>
    <td style="text-align:right;border: 1px solid black;"> 2.53 </td>
@@ -4202,6 +4434,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -4222,6 +4456,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000271 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000271 </td>
+   <td style="text-align:right;border: 1px solid black;"> 644993.9 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6029521 </td>
    <td style="text-align:left;border: 1px solid black;"> {EB,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 81.8361 </td>
    <td style="text-align:right;border: 1px solid black;"> 2.02 </td>
@@ -4253,6 +4489,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -4273,6 +4511,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000312 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000312 </td>
+   <td style="text-align:right;border: 1px solid black;"> 602253.5 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5994059 </td>
    <td style="text-align:left;border: 1px solid black;"> {DV} </td>
    <td style="text-align:right;border: 1px solid black;"> 882.1466 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.32 </td>
@@ -4304,6 +4544,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -4322,6 +4564,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000379 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000379 </td>
+   <td style="text-align:right;border: 1px solid black;"> 604834.9 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6012766 </td>
    <td style="text-align:right;border: 1px solid black;"> 276.6174 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.76 </td>
    <td style="text-align:right;border: 1px solid black;"> 2.87 </td>
@@ -4351,6 +4595,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass08_km </th>
@@ -4367,6 +4613,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000507 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000507 </td>
+   <td style="text-align:right;border: 1px solid black;"> 593237.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6009679 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.09 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.13 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.13 </td>
@@ -4394,6 +4642,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass08_km </th>
@@ -4411,6 +4661,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000509 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000509 </td>
+   <td style="text-align:right;border: 1px solid black;"> 609917.9 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5998826 </td>
    <td style="text-align:right;border: 1px solid black;"> 0 </td>
    <td style="text-align:right;border: 1px solid black;"> 0 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.82 </td>
@@ -4439,6 +4691,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -4457,6 +4711,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000565 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000565 </td>
+   <td style="text-align:right;border: 1px solid black;"> 608574.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6022389 </td>
    <td style="text-align:right;border: 1px solid black;"> 752.8525 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.59 </td>
    <td style="text-align:right;border: 1px solid black;"> 2.7 </td>
@@ -4486,6 +4742,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -4504,6 +4762,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000569 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000569 </td>
+   <td style="text-align:right;border: 1px solid black;"> 631242.7 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6016700 </td>
    <td style="text-align:right;border: 1px solid black;"> 144.0555 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.54 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.05 </td>
@@ -4533,6 +4793,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -4553,6 +4815,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000571 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000571 </td>
+   <td style="text-align:right;border: 1px solid black;"> 631704.2 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6017415 </td>
    <td style="text-align:left;border: 1px solid black;"> {DV,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 1172.438 </td>
    <td style="text-align:right;border: 1px solid black;"> 3.35 </td>
@@ -4584,6 +4848,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass08_km </th>
@@ -4600,6 +4866,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000674 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000674 </td>
+   <td style="text-align:right;border: 1px solid black;"> 622270.8 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6007312 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.21 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.85 </td>
    <td style="text-align:right;border: 1px solid black;"> 0 </td>
@@ -4627,6 +4895,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -4645,6 +4915,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000683 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000683 </td>
+   <td style="text-align:right;border: 1px solid black;"> 627065 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6008380 </td>
    <td style="text-align:right;border: 1px solid black;"> 317.2277 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.59 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.84 </td>
@@ -4674,6 +4946,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -4693,6 +4967,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000718 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000718 </td>
+   <td style="text-align:right;border: 1px solid black;"> 643882 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6002088 </td>
    <td style="text-align:left;border: 1px solid black;"> {DV,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 474.273 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.73 </td>
@@ -4723,6 +4999,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -4742,6 +5020,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000777 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000777 </td>
+   <td style="text-align:right;border: 1px solid black;"> 605157 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5994783 </td>
    <td style="text-align:right;border: 1px solid black;"> 524.3326 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.99 </td>
    <td style="text-align:right;border: 1px solid black;"> 2.54 </td>
@@ -4772,6 +5052,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass08_km </th>
@@ -4788,6 +5070,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000788 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000788 </td>
+   <td style="text-align:right;border: 1px solid black;"> 604940 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5995120 </td>
    <td style="text-align:right;border: 1px solid black;"> 0 </td>
    <td style="text-align:right;border: 1px solid black;"> 0 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.22 </td>
@@ -4815,6 +5099,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -4836,6 +5122,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000796 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000796 </td>
+   <td style="text-align:right;border: 1px solid black;"> 637544 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6008011 </td>
    <td style="text-align:left;border: 1px solid black;"> {CC,CO,DV,RB,SP} </td>
    <td style="text-align:right;border: 1px solid black;"> 2726.882 </td>
    <td style="text-align:right;border: 1px solid black;"> 4.19 </td>
@@ -4868,6 +5156,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -4887,6 +5177,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000798 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000798 </td>
+   <td style="text-align:right;border: 1px solid black;"> 643460.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6025890 </td>
    <td style="text-align:right;border: 1px solid black;"> 3626.286 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.58 </td>
    <td style="text-align:right;border: 1px solid black;"> 7.62 </td>
@@ -4917,6 +5209,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -4935,6 +5229,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000801 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000801 </td>
+   <td style="text-align:right;border: 1px solid black;"> 640778.1 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6020795 </td>
    <td style="text-align:right;border: 1px solid black;"> 271.4775 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.06 </td>
    <td style="text-align:right;border: 1px solid black;"> 0 </td>
@@ -4964,6 +5260,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -4983,6 +5281,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000908 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000908 </td>
+   <td style="text-align:right;border: 1px solid black;"> 604357.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6009291 </td>
    <td style="text-align:right;border: 1px solid black;"> 227.02 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.04 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.74 </td>
@@ -5013,6 +5313,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5032,6 +5334,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000912 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000912 </td>
+   <td style="text-align:right;border: 1px solid black;"> 584302.5 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6002385 </td>
    <td style="text-align:left;border: 1px solid black;"> {DV,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 697.5581 </td>
    <td style="text-align:right;border: 1px solid black;"> 3.04 </td>
@@ -5062,6 +5366,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5081,6 +5387,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000931 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000931 </td>
+   <td style="text-align:right;border: 1px solid black;"> 601878.2 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5984146 </td>
    <td style="text-align:left;border: 1px solid black;"> {CT,DV} </td>
    <td style="text-align:right;border: 1px solid black;"> 185.8928 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.29 </td>
@@ -5111,6 +5419,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass08_km </th>
@@ -5127,6 +5437,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014000991 </td>
    <td style="text-align:right;border: 1px solid black;"> 14000991 </td>
+   <td style="text-align:right;border: 1px solid black;"> 623923 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6005104 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.64 </td>
    <td style="text-align:right;border: 1px solid black;"> 0 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.66 </td>
@@ -5154,6 +5466,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5173,6 +5487,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001002 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001002 </td>
+   <td style="text-align:right;border: 1px solid black;"> 606615 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6006104 </td>
    <td style="text-align:left;border: 1px solid black;"> {CO} </td>
    <td style="text-align:right;border: 1px solid black;"> 635.2699 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.15 </td>
@@ -5203,6 +5519,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5223,6 +5541,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001029 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001029 </td>
+   <td style="text-align:right;border: 1px solid black;"> 626238.6 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6005131 </td>
    <td style="text-align:left;border: 1px solid black;"> {CT,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 692.8488 </td>
    <td style="text-align:right;border: 1px solid black;"> 2.41 </td>
@@ -5254,6 +5574,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5273,6 +5595,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001080 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001080 </td>
+   <td style="text-align:right;border: 1px solid black;"> 605331 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5986992 </td>
    <td style="text-align:left;border: 1px solid black;"> {CT} </td>
    <td style="text-align:right;border: 1px solid black;"> 369.9592 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.08 </td>
@@ -5303,6 +5627,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5324,6 +5650,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001161 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001161 </td>
+   <td style="text-align:right;border: 1px solid black;"> 605511 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5992667 </td>
    <td style="text-align:left;border: 1px solid black;"> {BB,CAS,CO,CSU,CT,DV,LDC,LSU,LT,LW,MW,PCC,RB,RSC,WSU} </td>
    <td style="text-align:right;border: 1px solid black;"> 8193.538 </td>
    <td style="text-align:right;border: 1px solid black;"> 29.57 </td>
@@ -5356,6 +5684,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -5375,6 +5705,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001195 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001195 </td>
+   <td style="text-align:right;border: 1px solid black;"> 607542.6 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5999130 </td>
    <td style="text-align:right;border: 1px solid black;"> 572.2664 </td>
    <td style="text-align:right;border: 1px solid black;"> 3.5 </td>
    <td style="text-align:right;border: 1px solid black;"> 2.21 </td>
@@ -5405,6 +5737,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5425,6 +5759,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001198 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001198 </td>
+   <td style="text-align:right;border: 1px solid black;"> 585968.3 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5996331 </td>
    <td style="text-align:left;border: 1px solid black;"> {DV} </td>
    <td style="text-align:right;border: 1px solid black;"> 243.2395 </td>
    <td style="text-align:right;border: 1px solid black;"> 0 </td>
@@ -5456,6 +5792,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5477,6 +5815,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001222 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001222 </td>
+   <td style="text-align:right;border: 1px solid black;"> 617661.2 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5990287 </td>
    <td style="text-align:left;border: 1px solid black;"> {CT,DV,LKC,RB,RB/CT} </td>
    <td style="text-align:right;border: 1px solid black;"> 2045.01 </td>
    <td style="text-align:right;border: 1px solid black;"> 9.2 </td>
@@ -5509,6 +5849,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5529,6 +5871,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001245 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001245 </td>
+   <td style="text-align:right;border: 1px solid black;"> 588941.5 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6004786 </td>
    <td style="text-align:left;border: 1px solid black;"> {CO,CT,DV,LKC,SP} </td>
    <td style="text-align:right;border: 1px solid black;"> 1066.799 </td>
    <td style="text-align:right;border: 1px solid black;"> 4.31 </td>
@@ -5560,6 +5904,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5580,6 +5926,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001247 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001247 </td>
+   <td style="text-align:right;border: 1px solid black;"> 591802.9 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6006187 </td>
    <td style="text-align:left;border: 1px solid black;"> {CO,CT,DV,LKC} </td>
    <td style="text-align:right;border: 1px solid black;"> 1332.154 </td>
    <td style="text-align:right;border: 1px solid black;"> 2.82 </td>
@@ -5611,6 +5959,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -5628,6 +5978,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001427 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001427 </td>
+   <td style="text-align:right;border: 1px solid black;"> 613053 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6011398 </td>
    <td style="text-align:right;border: 1px solid black;"> 110.0961 </td>
    <td style="text-align:right;border: 1px solid black;"> 0 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.02 </td>
@@ -5656,6 +6008,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass05_km </th>
@@ -5674,6 +6028,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001534 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001534 </td>
+   <td style="text-align:right;border: 1px solid black;"> 592004.9 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6017653 </td>
    <td style="text-align:right;border: 1px solid black;"> 113.68 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.06 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.01 </td>
@@ -5703,6 +6059,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5723,6 +6081,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001542 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001542 </td>
+   <td style="text-align:right;border: 1px solid black;"> 595641.5 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6007685 </td>
    <td style="text-align:left;border: 1px solid black;"> {CT,DV} </td>
    <td style="text-align:right;border: 1px solid black;"> 1369.133 </td>
    <td style="text-align:right;border: 1px solid black;"> 2.65 </td>
@@ -5754,6 +6114,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5774,6 +6136,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001563 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001563 </td>
+   <td style="text-align:right;border: 1px solid black;"> 630001.2 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6009752 </td>
    <td style="text-align:left;border: 1px solid black;"> {CCT,CT,LKC} </td>
    <td style="text-align:right;border: 1px solid black;"> 1324.534 </td>
    <td style="text-align:right;border: 1px solid black;"> 3.53 </td>
@@ -5805,6 +6169,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5824,6 +6190,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1014001769 </td>
    <td style="text-align:right;border: 1px solid black;"> 14001769 </td>
+   <td style="text-align:right;border: 1px solid black;"> 614711.5 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6009971 </td>
    <td style="text-align:left;border: 1px solid black;"> {CT} </td>
    <td style="text-align:right;border: 1px solid black;"> 398.4419 </td>
    <td style="text-align:right;border: 1px solid black;"> 0.16 </td>
@@ -5854,6 +6222,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5873,6 +6243,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1024704566 </td>
    <td style="text-align:right;border: 1px solid black;"> 24704566 </td>
+   <td style="text-align:right;border: 1px solid black;"> 605785.6 </td>
+   <td style="text-align:right;border: 1px solid black;"> 6099884 </td>
    <td style="text-align:left;border: 1px solid black;"> {DV,RB} </td>
    <td style="text-align:right;border: 1px solid black;"> 6571.972 </td>
    <td style="text-align:right;border: 1px solid black;"> 1.7 </td>
@@ -5903,6 +6275,8 @@
   <tr>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> aggregated_crossings_id </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> modelled_crossing_id </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> east </th>
+   <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> north </th>
    <th style="text-align:left;border: 1px solid black;background-color: yellow !important;"> observedspp_upstr </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> watershed_upstr_ha </th>
    <th style="text-align:right;border: 1px solid black;background-color: yellow !important;"> total_slopeclass03_waterbodies_km </th>
@@ -5923,6 +6297,8 @@
   <tr>
    <td style="text-align:right;border: 1px solid black;"> 1024740003 </td>
    <td style="text-align:right;border: 1px solid black;"> 24740003 </td>
+   <td style="text-align:right;border: 1px solid black;"> 622870.2 </td>
+   <td style="text-align:right;border: 1px solid black;"> 5988875 </td>
    <td style="text-align:left;border: 1px solid black;"> {CAL,LKC,RB,RSC} </td>
    <td style="text-align:right;border: 1px solid black;"> 992.0196 </td>
    <td style="text-align:right;border: 1px solid black;"> 5.6 </td>
