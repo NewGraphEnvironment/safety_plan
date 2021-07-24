@@ -54,3 +54,8 @@ size: 8.5in 11in;
 /* .caption p {
    font-size: 10px;
 }*/
+
+/*https://github.com/rstudio/pagedown/issues/50*/
+.break-after-me {
+  break-after: page;
+}
