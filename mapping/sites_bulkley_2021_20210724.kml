@@ -1,6 +1,6 @@
 <kml xmlns:xsd="http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd" xmlns:xmlns="http://www.opengis.net/kml/2.2/" version="1.0">
   <Document>
-    <name>mapping/sites_bulkley_2021_20210723.kml</name>
+    <name>mapping/sites_bulkley_2021_20210724.kml</name>
     <open>1</open>
     <Folder>
       <name>SpatialPointsDataFrame</name>
@@ -1385,7 +1385,7 @@
         </BalloonStyle>
       </Style>
       <Placemark>
-        <name>3042 - NA - Barren Creek</name>
+        <name>3042 - 2020-NA - Barren Creek</name>
         <styleUrl>#pnt1</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1432,7 +1432,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>3054 - NA - NA</name>
+        <name>3054 - 2020-NA - NA</name>
         <styleUrl>#pnt2</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1481,7 +1481,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>3139 - NA - NA</name>
+        <name>3139 - 2020-NA - NA</name>
         <styleUrl>#pnt3</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1526,7 +1526,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>57944 - NA - Toboggan Creek</name>
+        <name>57944 - cwf-NA - Toboggan Creek</name>
         <styleUrl>#pnt4</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1577,7 +1577,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>58159 - NA - McDowell Creek</name>
+        <name>58159 - 2020-NA - McDowell Creek</name>
         <styleUrl>#pnt5</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1626,7 +1626,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>123445 - NA - Tyhee Creek</name>
+        <name>123445 - 2020-NA - Tyhee Creek</name>
         <styleUrl>#pnt6</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1675,7 +1675,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>123446 - NA - Tyhee Creek</name>
+        <name>123446 - 2020-NA - Tyhee Creek</name>
         <styleUrl>#pnt7</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1724,7 +1724,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>123770 - NA - John Brown Creek</name>
+        <name>123770 - cwf-NA - John Brown Creek</name>
         <styleUrl>#pnt8</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1775,7 +1775,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>123776 - NA - Corya Creek</name>
+        <name>123776 - cwf-NA - Corya Creek</name>
         <styleUrl>#pnt9</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1826,7 +1826,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>123794 - NA - NA</name>
+        <name>123794 - 2020-NA - NA</name>
         <styleUrl>#pnt10</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1873,7 +1873,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>123795 - NA - NA</name>
+        <name>123795 - 2020-NA - NA</name>
         <styleUrl>#pnt11</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1916,7 +1916,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>124420 - NA - Station Creek</name>
+        <name>124420 - cwf-NA - Station Creek</name>
         <styleUrl>#pnt12</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1967,7 +1967,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>124487 - NA - Porphyry Creek</name>
+        <name>124487 - 2020-NA - Porphyry Creek</name>
         <styleUrl>#pnt13</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2016,7 +2016,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>124500 - NA - Helps Creek</name>
+        <name>124500 - 2020-NA - Helps Creek</name>
         <styleUrl>#pnt14</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2067,7 +2067,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>124501 - NA - NA</name>
+        <name>124501 - 2020-NA - NA</name>
         <styleUrl>#pnt15</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2114,7 +2114,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>124504 - NA - Coffin Creek</name>
+        <name>124504 - 2020-NA - Coffin Creek</name>
         <styleUrl>#pnt16</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2165,7 +2165,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>195288 - NA - Gibson Creek</name>
+        <name>195288 - 2020-NA - Gibson Creek</name>
         <styleUrl>#pnt17</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2216,7 +2216,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>195290 - NA - Gibson Creek</name>
+        <name>195290 - 2020-NA - Gibson Creek</name>
         <styleUrl>#pnt18</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2267,7 +2267,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197360 - NA - Riddeck Creek</name>
+        <name>197360 - 2020-NA - Riddeck Creek</name>
         <styleUrl>#pnt19</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2316,7 +2316,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197365 - mod - NA</name>
+        <name>197365 - morice-mod - NA</name>
         <styleUrl>#pnt20</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2367,7 +2367,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197378 - mod - NA</name>
+        <name>197378 - morice-mod - NA</name>
         <styleUrl>#pnt21</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2418,7 +2418,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197379 - mod - NA</name>
+        <name>197379 - morice-mod - NA</name>
         <styleUrl>#pnt22</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2469,7 +2469,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197640 - NA - NA</name>
+        <name>197640 - 2020-NA - NA</name>
         <styleUrl>#pnt23</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2518,7 +2518,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197658 - NA - Byman Creek</name>
+        <name>197658 - cwf-NA - Byman Creek</name>
         <styleUrl>#pnt24</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2567,7 +2567,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197662 - NA - Richfield Creek</name>
+        <name>197662 - cwf-NA - Richfield Creek</name>
         <styleUrl>#pnt25</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2618,7 +2618,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197663 - NA - Johnny David Creek</name>
+        <name>197663 - cwf-NA - Johnny David Creek</name>
         <styleUrl>#pnt26</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2669,7 +2669,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197664 - NA - Barren Creek</name>
+        <name>197664 - 2020-NA - Barren Creek</name>
         <styleUrl>#pnt27</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2718,7 +2718,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197665 - NA - NA</name>
+        <name>197665 - 2020-NA - NA</name>
         <styleUrl>#pnt28</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2767,7 +2767,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197667 - NA - NA</name>
+        <name>197667 - 2020-NA - NA</name>
         <styleUrl>#pnt29</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2814,7 +2814,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197668 - NA - Coffin Creek</name>
+        <name>197668 - 2020-NA - Coffin Creek</name>
         <styleUrl>#pnt30</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2865,7 +2865,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001800048 - NA - Cesford Creek</name>
+        <name>1001800048 - manual-NA - Cesford Creek</name>
         <styleUrl>#pnt31</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2910,7 +2910,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001800050 - NA - Bulkley River</name>
+        <name>1001800050 - cwf-NA - Bulkley River</name>
         <styleUrl>#pnt32</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2976,7 +2976,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001800050 - NA - Bulkley River</name>
+        <name>1001800050 - cwf-NA - Bulkley River</name>
         <styleUrl>#pnt33</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3042,7 +3042,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001800355 - NA - Ailport Creek</name>
+        <name>1001800355 - cwf-NA - Ailport Creek</name>
         <styleUrl>#pnt34</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3091,7 +3091,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001800356 - NA - Watson Creek</name>
+        <name>1001800356 - manual-NA - Watson Creek</name>
         <styleUrl>#pnt35</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3140,7 +3140,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001800422 - NA - Ailport Creek</name>
+        <name>1001800422 - cwf-NA - Ailport Creek</name>
         <styleUrl>#pnt36</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3189,7 +3189,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001800752 - NA - NA</name>
+        <name>1001800752 - cwf-NA - NA</name>
         <styleUrl>#pnt37</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3236,7 +3236,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001801122 - NA - Ailport Creek</name>
+        <name>1001801122 - cwf-NA - Ailport Creek</name>
         <styleUrl>#pnt38</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3285,7 +3285,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001801133 - NA - NA</name>
+        <name>1001801133 - cwf-NA - NA</name>
         <styleUrl>#pnt39</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3332,7 +3332,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001801773 - NA - Boulder Creek</name>
+        <name>1001801773 - cwf-NA - Boulder Creek</name>
         <styleUrl>#pnt40</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3379,7 +3379,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001801969 - NA - NA</name>
+        <name>1001801969 - cwf-NA - NA</name>
         <styleUrl>#pnt41</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3426,7 +3426,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001802044 - NA - Ailport Creek</name>
+        <name>1001802044 - cwf-NA - Ailport Creek</name>
         <styleUrl>#pnt42</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3475,7 +3475,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001802088 - NA - Robert Hatch Creek</name>
+        <name>1001802088 - cwf-NA - Robert Hatch Creek</name>
         <styleUrl>#pnt43</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3524,7 +3524,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001802089 - NA - Johnny David Creek</name>
+        <name>1001802089 - cwf-NA - Johnny David Creek</name>
         <styleUrl>#pnt44</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3573,7 +3573,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001802106 - NA - Robert Hatch Creek</name>
+        <name>1001802106 - cwf-NA - Robert Hatch Creek</name>
         <styleUrl>#pnt45</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3622,7 +3622,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001802760 - NA - Deep Creek</name>
+        <name>1001802760 - cwf-NA - Deep Creek</name>
         <styleUrl>#pnt46</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3671,7 +3671,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001802820 - NA - Deep Creek</name>
+        <name>1001802820 - cwf-NA - Deep Creek</name>
         <styleUrl>#pnt47</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3720,7 +3720,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001803682 - NA - Crow Creek</name>
+        <name>1001803682 - cwf-NA - Crow Creek</name>
         <styleUrl>#pnt48</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3769,7 +3769,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001804694 - NA - NA</name>
+        <name>1001804694 - cwf-NA - NA</name>
         <styleUrl>#pnt49</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3816,7 +3816,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001805529 - NA - Bulkley River</name>
+        <name>1001805529 - cwf-NA - Bulkley River</name>
         <styleUrl>#pnt50</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3882,7 +3882,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001805529 - NA - Bulkley River</name>
+        <name>1001805529 - cwf-NA - Bulkley River</name>
         <styleUrl>#pnt51</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3948,7 +3948,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001805532 - NA - Crow Creek</name>
+        <name>1001805532 - cwf-NA - Crow Creek</name>
         <styleUrl>#pnt52</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3997,7 +3997,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001805553 - NA - Glass Creek</name>
+        <name>1001805553 - cwf-NA - Glass Creek</name>
         <styleUrl>#pnt53</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4046,7 +4046,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1001805665 - NA - Canyon Creek</name>
+        <name>1001805665 - cwf-NA - Canyon Creek</name>
         <styleUrl>#pnt54</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4095,7 +4095,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000009 - mod - NA</name>
+        <name>1014000009 - morice-mod - NA</name>
         <styleUrl>#pnt55</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4144,7 +4144,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000255 - high - Nado Creek</name>
+        <name>1014000255 - morice-high - Nado Creek</name>
         <styleUrl>#pnt56</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4195,7 +4195,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000271 - mod - NA</name>
+        <name>1014000271 - morice-mod - NA</name>
         <styleUrl>#pnt57</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4246,7 +4246,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000312 - mod - NA</name>
+        <name>1014000312 - morice-mod - NA</name>
         <styleUrl>#pnt58</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4297,7 +4297,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000379 - mod - NA</name>
+        <name>1014000379 - morice-mod - NA</name>
         <styleUrl>#pnt59</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4344,7 +4344,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000507 - mod - NA</name>
+        <name>1014000507 - morice-mod - NA</name>
         <styleUrl>#pnt60</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4387,7 +4387,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000509 - mod - NA</name>
+        <name>1014000509 - morice-mod - NA</name>
         <styleUrl>#pnt61</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4432,7 +4432,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000565 - high - NA</name>
+        <name>1014000565 - morice-high - NA</name>
         <styleUrl>#pnt62</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4479,7 +4479,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000569 - mod - NA</name>
+        <name>1014000569 - morice-mod - NA</name>
         <styleUrl>#pnt63</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4526,7 +4526,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000571 - mod - NA</name>
+        <name>1014000571 - morice-mod - NA</name>
         <styleUrl>#pnt64</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4577,7 +4577,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000674 - mod - NA</name>
+        <name>1014000674 - morice-mod - NA</name>
         <styleUrl>#pnt65</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4620,7 +4620,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000683 - mod - NA</name>
+        <name>1014000683 - morice-mod - NA</name>
         <styleUrl>#pnt66</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4667,7 +4667,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000718 - mod - NA</name>
+        <name>1014000718 - morice-mod - NA</name>
         <styleUrl>#pnt67</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4716,7 +4716,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000777 - mod - NA</name>
+        <name>1014000777 - morice-mod - NA</name>
         <styleUrl>#pnt68</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4765,7 +4765,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000788 - mod - NA</name>
+        <name>1014000788 - morice-mod - NA</name>
         <styleUrl>#pnt69</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4808,7 +4808,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000796 - high - Fenton Creek</name>
+        <name>1014000796 - morice-high - Fenton Creek</name>
         <styleUrl>#pnt70</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4861,7 +4861,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000798 - high - Peacock Creek</name>
+        <name>1014000798 - morice-high - Peacock Creek</name>
         <styleUrl>#pnt71</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4910,7 +4910,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000801 - mod - NA</name>
+        <name>1014000801 - morice-mod - NA</name>
         <styleUrl>#pnt72</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4957,7 +4957,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000908 - mod - NA</name>
+        <name>1014000908 - morice-mod - NA</name>
         <styleUrl>#pnt73</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5006,7 +5006,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000912 - high - NA</name>
+        <name>1014000912 - morice-high - NA</name>
         <styleUrl>#pnt74</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5055,7 +5055,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000931 - high - NA</name>
+        <name>1014000931 - morice-high - NA</name>
         <styleUrl>#pnt75</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5104,7 +5104,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014000991 - mod - NA</name>
+        <name>1014000991 - morice-mod - NA</name>
         <styleUrl>#pnt76</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5147,7 +5147,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001002 - mod - NA</name>
+        <name>1014001002 - morice-mod - NA</name>
         <styleUrl>#pnt77</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5196,7 +5196,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001029 - high - NA</name>
+        <name>1014001029 - morice-high - NA</name>
         <styleUrl>#pnt78</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5247,7 +5247,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001080 - mod - NA</name>
+        <name>1014001080 - morice-mod - NA</name>
         <styleUrl>#pnt79</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5296,7 +5296,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001161 - high - McBride Creek</name>
+        <name>1014001161 - morice-high - McBride Creek</name>
         <styleUrl>#pnt80</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5349,7 +5349,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001195 - mod - NA</name>
+        <name>1014001195 - morice-mod - NA</name>
         <styleUrl>#pnt81</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5398,7 +5398,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001198 - mod - NA</name>
+        <name>1014001198 - morice-mod - NA</name>
         <styleUrl>#pnt82</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5449,7 +5449,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001222 - high - Lamprey Creek</name>
+        <name>1014001222 - morice-high - Lamprey Creek</name>
         <styleUrl>#pnt83</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5502,7 +5502,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001245 - high - NA</name>
+        <name>1014001245 - morice-high - NA</name>
         <styleUrl>#pnt84</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5553,7 +5553,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001247 - high - NA</name>
+        <name>1014001247 - morice-high - NA</name>
         <styleUrl>#pnt85</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5604,7 +5604,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001427 - mod - NA</name>
+        <name>1014001427 - morice-mod - NA</name>
         <styleUrl>#pnt86</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5649,7 +5649,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001534 - mod - NA</name>
+        <name>1014001534 - morice-mod - NA</name>
         <styleUrl>#pnt87</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5696,7 +5696,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001542 - high - NA</name>
+        <name>1014001542 - morice-high - NA</name>
         <styleUrl>#pnt88</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5747,7 +5747,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001563 - high - NA</name>
+        <name>1014001563 - morice-high - NA</name>
         <styleUrl>#pnt89</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5798,7 +5798,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1014001769 - mod - NA</name>
+        <name>1014001769 - morice-mod - NA</name>
         <styleUrl>#pnt90</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5847,7 +5847,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1024704566 - NA - Corya Creek</name>
+        <name>1024704566 - cwf-NA - Corya Creek</name>
         <styleUrl>#pnt91</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5896,7 +5896,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1024740003 - high - NA</name>
+        <name>1024740003 - morice-high - NA</name>
         <styleUrl>#pnt92</styleUrl>
         <description><![CDATA[<table>
  <thead>

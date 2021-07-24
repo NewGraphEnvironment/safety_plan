@@ -8,6 +8,17 @@ my_kable <- function(dat, caption_text = '', font = font_set){
 }
 
 ##function to trim up sheet and get names (was previously source from altools package)
+at_trim_xlsheet <- function(df, column_last = ncol(df)) {
+  df %>%
+    dplyr::select(1:column_last) %>% ##get rid of the extra columns.  should be more abstract
+    # janitor::row_to_names(which.max(complete.cases(.))) %>%
+    janitor::clean_names() %>%
+    janitor::remove_empty(., which = "rows")
+}
+
+
+
+##this is for the pf projects - chooses the top row - untidy input!
 at_trim_xlsheet2 <- function(df, column_last = ncol(df)) {
   df %>%
     dplyr::select(1:column_last) %>% ##get rid of the extra columns.  should be more abstract
@@ -52,3 +63,24 @@ make_html_tbl <- function(df) {
     )
 }
 
+
+make_untidy_table <- function(d){
+  d_prep <- d %>%
+    tibble::rownames_to_column() %>%
+    mutate(rowname = as.numeric(rowname),
+           col_id = case_when(rowname <= ceiling(nrow(.)/2) ~ 1,
+                              T ~ 2)) %>%
+    select(-rowname)
+  d1 <- d_prep %>%
+    filter(col_id == 1) %>%
+    select(-col_id)
+  d1$row_match <- seq(1:nrow(d1))
+  d2 <- d_prep %>%
+    filter(col_id == 2) %>%
+    select(-col_id) %>%
+    purrr::set_names(nm = '-')
+  d2$row_match <- seq(1:nrow(d2))
+  ##join them together
+  d_joined <- left_join(d1, d2, by = 'row_match') %>%
+    select(-row_match)
+}
