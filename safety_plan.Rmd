@@ -387,6 +387,9 @@ info <- sf::st_read(conn,
                                 ",
   .con = conn)) %>% 
   distinct(aggregated_crossings_id, .keep_all = T) %>% 
+  sf::st_transform(crs = 32609) %>% ##lets get the utms for the table becuase that is how we navigate
+   mutate(east = sf::st_coordinates(.)[,1],
+         north = sf::st_coordinates(.)[,2]) %>% 
   sf::st_transform(crs = 4326) %>% 
    mutate(long = sf::st_coordinates(.)[,1],
          lat = sf::st_coordinates(.)[,2])
@@ -465,7 +468,7 @@ tab_prep1 <- left_join(wsc, gnis_names,
 
 
 tab_prep2 <- left_join(
-                 select(info, aggregated_crossings_id, modelled_crossing_id, stream_crossing_id, blue_line_key, linear_feature_id, lat, long, observedspp_upstr, watershed_upstr_ha, total_slopeclass03_waterbodies_km, total_slopeclass05_km, total_slopeclass08_km, co_spawning_km:co_rearing_ha, dbm_mof_50k_grid),
+                 select(info, aggregated_crossings_id, modelled_crossing_id, stream_crossing_id, blue_line_key, linear_feature_id, lat, long, east, north, observedspp_upstr, watershed_upstr_ha, total_slopeclass03_waterbodies_km, total_slopeclass05_km, total_slopeclass08_km, co_spawning_km:co_rearing_ha, dbm_mof_50k_grid),
                  tab_prep1,
                  by = 'aggregated_crossings_id') 
 
@@ -616,8 +619,8 @@ table_sites %>%
          Stream = gnis_name, 
          # watershed_code_50k, 
          # watershed_code_20k, 
-         lat, 
-         long, 
+         east, 
+         north, 
          source,
          id_map = dbm_mof_50k_grid,
          comments = my_text,
