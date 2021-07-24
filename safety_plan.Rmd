@@ -34,12 +34,6 @@ Date: `r format(Sys.Date(), "%Y-%m-%d")`
 
 
 
-<br>
-
-**Re: Safety Plan**
-
-<br>
-
 ```{r setup, include = TRUE, echo =FALSE, message=FALSE, warning=FALSE}
 # gitbook_on <- TRUE
 gitbook_on <- FALSE  ##we just need turn  this on and off to switch between gitbook and pdf via paged.js
@@ -54,6 +48,8 @@ source('R/packages.R')
 source('R/functions.R')
 source('R/private_info.R')
 
+name_project_number <- '2021-034'
+name_project_number2 <- '2021-040'
 name_project <- 'bulkley_2021'
 name_repo <- 'safety_plan'
 name_pdf <- 'safety_plan'
@@ -63,7 +59,14 @@ link_kml <- paste0('https://github.com/NewGraphEnvironment/', name_repo, '/raw/m
 link_pdf <- paste0('https://github.com/NewGraphEnvironment/', name_repo, '/raw/main/docs/', name_pdf, '_', name_project, '.pdf')
 link_fieldmaps <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/bulkley/'
 link_fieldmaps2 <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/morice/' 
+
 ```
+
+<br>
+
+# `r paste0('Safety Plan - ',name_project)`  {.unnumbered .break-after-me}
+
+<br>
 
 
 ```{r info-hospitals}
@@ -88,6 +91,35 @@ photo_width <- "80%"
 font_set <- 9
 ```
 
+```{r import-projects}
+##Read in the contacts spreadsheet
+####--------------bring in the habitat and fish data------------------
+projects <-  readxl::excel_sheets(path = "./data/projects.xlsx") %>%
+  purrr::set_names() %>%
+  purrr::map(read_excel,
+             path = "./data/projects.xlsx",
+             .name_repair = janitor::make_clean_names) %>%
+  purrr::set_names(janitor::make_clean_names(names(.))) %>%
+  purrr::map(at_trim_xlsheet) %>% #this is the clean run of this function
+  purrr::map(plyr::colwise(type.convert))
+
+```
+
+```{r  table-overview}
+tab_overview <- projects %>% 
+  pluck('projects') %>% 
+  filter(project_number == name_project_number |
+           project_number == name_project_number2) %>% 
+  select(project_number, project_name)
+
+tab_overview %>% 
+  kable() %>% 
+  kableExtra::kable_styling(c("condensed", "responsive"),
+                              full_width = T,
+                              font_size = font_set)
+```
+
+<br>
 
 The latest version of this pdf can be downloaded [here](`r knitr::asis_output(link_pdf)`).
 
@@ -100,6 +132,66 @@ The latest version of this pdf can be downloaded [here](`r knitr::asis_output(li
 A zip file which includes kml (google earth) and gpx (garmin) files of the sites to be potentially assessed can be downloaded [here](`r knitr::asis_output(link_kml)`). Georeferenced pdf maps can be accessed and downloaded for the [Bulkley here](`r knitr::asis_output(link_fieldmaps)`) and [Morice here](`r knitr::asis_output(link_fieldmaps2)`).
 
 
+## Equipment Checklists {.unnumbered}
+
+
+<br>
+
+```{r table-equipment}
+
+#https://stackoverflow.com/questions/63643051/r-dplyr-filter-string-condition-on-multiple-columns
+
+##equipment personal 
+tab_eq_pers <- projects %>% 
+  pluck('equipment') %>% 
+  filter(!is.na(eq_pers_standard)) %>% 
+  arrange(eq_safety) %>% ##have these first on the list
+  select(eq_item)  %>% 
+  make_untidy_table() %>% 
+  rename(`Personal Equipment Checklist` = eq_item)
+
+my_caption = 'Personal Equipment Checklist'
+
+# tab_eq_pers %>% 
+#     kable(caption = my_caption, booktabs = T) %>%
+#   kableExtra::kable_styling(c("condensed"),
+#                             full_width = T,
+#                             font_size = font_set)
+tab_eq_pers %>% 
+  kable() %>% 
+  kableExtra::kable_styling(c("condensed", "responsive"),
+                              full_width = T,
+                              font_size = font_set)
+  
+
+
+```
+
+
+
+<br>
+
+```{r}
+##equipment for the crew
+tab_eq_crew <- projects %>% 
+  pluck('equipment') %>% 
+  # mutate(across(everything(), as.character)) %>% 
+  filter(if_any(starts_with('eq_task'), ~ . == 'fish passage')) %>% 
+  filter(is.na(eq_pers_standard)) %>% 
+  arrange(eq_safety) %>% 
+  select(eq_item)  %>% 
+  make_untidy_table() %>% 
+  rename(`Crew Equipment Checklist` = eq_item)
+
+my_caption = 'Crew Equipment Checklist'
+
+tab_eq_crew %>% 
+  kable() %>% 
+  kableExtra::kable_styling(c("condensed", "responsive"),
+                              full_width = T,
+                              font_size = font_set)
+
+```
 
 <br>
 
@@ -392,7 +484,7 @@ table_sites <- left_join(tab_prep3,
                          by = 'aggregated_crossings_id'
 ) %>% 
   mutate(sub5 = total_slopeclass03_waterbodies_km + total_slopeclass05_km,
-         name = paste0(aggregated_crossings_id, ' - ', my_priority, ' - ', gnis_name), 
+         name = paste0(aggregated_crossings_id, ' - ', source, '-', my_priority, ' - ', gnis_name), 
          desc = paste0('sub5 ', sub5, ' co_s ', co_spawning_km, ' co_r ', co_rearing_km, ' co_ha ', 
                        co_rearing_ha, ' ', ' cw ', channel_width, ' ', my_text),
          color = case_when(my_priority == 'mod' ~ 'yellow',
