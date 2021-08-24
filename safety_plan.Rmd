@@ -3,6 +3,7 @@ title: "Safety Plan"
 author: "Al Irvine"
 output:
   pagedown::html_letter:
+    fig_caption: true
     self_contained: true
     css: ["style-pagedown.css", "default", "letter"]
 links-to-footnotes: false
@@ -11,7 +12,7 @@ paged-footnotes: false
 knit: pagedown::chrome_print
 ---
 
-![logo](fig/logo_text_only.png){.logo} 
+![](fig/logo_text_only.png){.logo} 
 
 
  
@@ -58,15 +59,56 @@ link_repo <- paste0('https://newgraphenvironment.github.io/', name_repo, '/')
 link_kml <- paste0('https://github.com/NewGraphEnvironment/', name_repo, '/raw/main/docs/sites_', name_project, '_', format(Sys.Date(), '%Y%m%d'), '_kml_gpx.zip')
 link_pdf <- paste0('https://github.com/NewGraphEnvironment/', name_repo, '/raw/main/docs/', name_pdf, '_', name_project, '.pdf')
 link_fieldmaps <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/bulkley/'
-link_fieldmaps2 <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/morice/' 
+# link_fieldmaps2 <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/morice/' 
+
+hotel1 <- 'Silverthorne RV park is located between Finning and the Sullivan Chevy dealership on the west side of town. The address is 1700 highway 16 but you could also type in Alix place which should bring you to the driveway as well. Contact Lance - 1 604 556 9903 - email: 399hflfibdi8v4u8b70ax17dv3oy@reply.airbnb.com'
+hotel2 <- 'Sunshine Inn Houston. - Contact 250-845-7867, email: houson@sunshineinn.ca'
 
 ```
 
 <br>
 
+
+
 # `r paste0('Safety Plan - ',name_project)`  {.unnumbered .break-after-me}
 
 <br>
+
+```{r import-projects}
+
+
+
+##Read in the contacts spreadsheet
+####--------------bring in the habitat and fish data------------------
+projects <-  readxl::excel_sheets(path = "./data/projects.xlsx") %>%
+  purrr::set_names() %>%
+  purrr::map(read_excel,
+             path = "./data/projects.xlsx",
+             .name_repair = janitor::make_clean_names) %>%
+  purrr::set_names(janitor::make_clean_names(names(.))) %>%
+  purrr::map(at_trim_xlsheet) %>% #this is the clean run of this function
+  purrr::map(plyr::colwise(type.convert))
+
+```
+
+
+```{r tab-crew}
+crew_ids <- c('airvine', 'kprince', 'dnical', 'vjoseph', 'tpierre')
+
+
+tab_crew <- projects %>% 
+  pluck('crew_contacts') %>% 
+  filter(crew_id %in% crew_ids) %>% 
+  select(-crew_id) %>% 
+  purrr::set_names(nm = names(.) %>% stringr::str_replace_all('crew_', ''))
+
+
+tab_crew %>% 
+  kable(caption = 'Crew members details and emergency contacts') %>% 
+  kableExtra::kable_styling(c("condensed", "responsive"),
+                              full_width = T,
+                              font_size = font_set)
+```
 
 
 ```{r info-hospitals}
@@ -89,20 +131,6 @@ font_set <- 11
 ```{r settings-paged-html, eval= identical(gitbook_on, FALSE)}
 photo_width <- "80%"
 font_set <- 9
-```
-
-```{r import-projects}
-##Read in the contacts spreadsheet
-####--------------bring in the habitat and fish data------------------
-projects <-  readxl::excel_sheets(path = "./data/projects.xlsx") %>%
-  purrr::set_names() %>%
-  purrr::map(read_excel,
-             path = "./data/projects.xlsx",
-             .name_repair = janitor::make_clean_names) %>%
-  purrr::set_names(janitor::make_clean_names(names(.))) %>%
-  purrr::map(at_trim_xlsheet) %>% #this is the clean run of this function
-  purrr::map(plyr::colwise(type.convert))
-
 ```
 
 ```{r  table-overview}
@@ -129,8 +157,15 @@ The latest version of this pdf can be downloaded [here](`r knitr::asis_output(li
 
 
 
-A zip file which includes kml (google earth) and gpx (garmin) files of the sites to be potentially assessed can be downloaded [here](`r knitr::asis_output(link_kml)`). Georeferenced pdf maps can be accessed and downloaded for the [Bulkley here](`r knitr::asis_output(link_fieldmaps)`) and [Morice here](`r knitr::asis_output(link_fieldmaps2)`).
+A zip file which includes kml (google earth) and gpx (garmin) files of the sites to be potentially assessed can be downloaded [here](`r knitr::asis_output(link_kml)`). Georeferenced pdf maps can be accessed and downloaded [here](`r knitr::asis_output(link_fieldmaps)`).
 
+
+**Accomodations**
+
+Al - `r hotel1`  
+Kyle - `r hotel2`
+
+<br>
 
 ## Equipment Checklists {.unnumbered}
 
@@ -220,12 +255,14 @@ ggmap::ggmap(mybasemap)
   #            aes(x = lon, y = lat, colour = "black", stroke = 10), #https://stackoverflow.com/questions/54803891/custom-shape-in-ggplot-geom-point
   #            show.legend = F)
 
-knitr::asis_output(paste(hospital_name, hospital_address, hospital_phone, sep = ' - '))    
+# knitr::asis_output(paste(hospital_name, hospital_address, hospital_phone, sep = ' - '))    
 ```
 
 <br>
 
-```{r hospital2, fig.cap='my_caption', fig.width=6}
+```{r hospital2, fig.cap=my_caption, fig.width=6}
+
+my_caption = paste(hospital_name2, hospital_address2, hospital_phone2, sep = ' - ')
 
 #define the area of the base map by using a bounding box 
 mybasemap <- ggmap::get_map(location = hospital_address2,
@@ -240,7 +277,8 @@ ggmap::ggmap(mybasemap)
   #            aes(x = lon, y = lat, colour = "black", stroke = 10), #https://stackoverflow.com/questions/54803891/custom-shape-in-ggplot-geom-point
   #            show.legend = F)
 
-knitr::asis_output(paste(hospital_name2, hospital_address2, hospital_phone2, sep = ' - ')) 
+# knitr::asis_output(paste(hospital_name2, hospital_address2, hospital_phone2, sep = ' - ')) 
+
 ```
 
 <br>

@@ -1,6 +1,6 @@
 <kml xmlns:xsd="http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd" xmlns:xmlns="http://www.opengis.net/kml/2.2/" version="1.0">
   <Document>
-    <name>mapping/sites_bulkley_2021_20210724.kml</name>
+    <name>mapping/sites_bulkley_2021_20210824.kml</name>
     <open>1</open>
     <Folder>
       <name>SpatialPointsDataFrame</name>
