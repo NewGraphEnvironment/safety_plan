@@ -62,8 +62,11 @@ link_fieldmaps <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/bulkley
 # link_fieldmaps2 <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/morice/' 
 
 hotel1 <- 'Silverthorne RV park is located between Finning and the Sullivan Chevy dealership on the west side of town. The address is 1700 highway 16 but you could also type in Alix place which should bring you to the driveway as well. Contact Lance - 1 604 556 9903 - email: 399hflfibdi8v4u8b70ax17dv3oy@reply.airbnb.com'
-hotel2 <- 'Sunshine Inn Houston. - Contact 250-845-7867, email: houson@sunshineinn.ca'
+hotel2 <- 'Sunshine Inn Houston. - Contact 250-845-7867, email: houston@sunshineinn.ca'
 
+
+vehicle1 <- '2013 Toyota Tundra black w/flatdeck and yellow can-am quad'
+vehicle2 <- '2009? Chevy Sierra silver w/ canopy and graphic of two massive wolves in back window'
 ```
 
 <br>
@@ -91,6 +94,21 @@ projects <-  readxl::excel_sheets(path = "./data/projects.xlsx") %>%
 
 ```
 
+```{r  table-overview}
+tab_overview <- projects %>% 
+  pluck('projects') %>% 
+  filter(project_number == name_project_number |
+           project_number == name_project_number2) %>% 
+  select(project_number, project_name)
+
+tab_overview %>% 
+  kable() %>% 
+  kableExtra::kable_styling(c("condensed", "responsive"),
+                              full_width = T,
+                              font_size = font_set)
+```
+
+<br>
 
 ```{r tab-crew}
 crew_ids <- c('airvine', 'kprince', 'dnical', 'vjoseph', 'tpierre')
@@ -133,19 +151,6 @@ photo_width <- "80%"
 font_set <- 9
 ```
 
-```{r  table-overview}
-tab_overview <- projects %>% 
-  pluck('projects') %>% 
-  filter(project_number == name_project_number |
-           project_number == name_project_number2) %>% 
-  select(project_number, project_name)
-
-tab_overview %>% 
-  kable() %>% 
-  kableExtra::kable_styling(c("condensed", "responsive"),
-                              full_width = T,
-                              font_size = font_set)
-```
 
 <br>
 
@@ -164,6 +169,13 @@ A zip file which includes kml (google earth) and gpx (garmin) files of the sites
 
 Al - `r hotel1`  
 Kyle - `r hotel2`
+
+<br>
+
+**Vehicles**
+
+Al - `r vehicle1`  
+Kyle - `r vehicle2`
 
 <br>
 
